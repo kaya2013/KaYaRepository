@@ -1,0 +1,15 @@
+address:
+  streetName: Scharnhauser Str
+
+server:
+  port: 7070
+
+spring:
+  data:
+    mongodb:
+      #host: 127.0.0.1
+      #port: 27017
+      #database: test
+      uri: mongodb://127.0.0.1:27017/test
+  application:
+    bootInitialzr
